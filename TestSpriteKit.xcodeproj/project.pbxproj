@@ -12,6 +12,12 @@
 		8868D32A1D8681DE001E1680 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8868D3281D8681DE001E1680 /* Main.storyboard */; };
 		8868D32C1D8681DE001E1680 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8868D32B1D8681DE001E1680 /* Assets.xcassets */; };
 		8868D32F1D8681DE001E1680 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8868D32D1D8681DE001E1680 /* LaunchScreen.storyboard */; };
+		8868D3371D8682C8001E1680 /* TitleScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8868D3361D8682C8001E1680 /* TitleScene.sks */; };
+		8868D3391D868849001E1680 /* TitleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8868D3381D868849001E1680 /* TitleScene.swift */; };
+		8868D33B1D868995001E1680 /* PlayScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8868D33A1D868995001E1680 /* PlayScene.sks */; };
+		8868D33D1D868A41001E1680 /* PlayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8868D33C1D868A41001E1680 /* PlayScene.swift */; };
+		8868D33F1D868AA9001E1680 /* ResultScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8868D33E1D868AA9001E1680 /* ResultScene.sks */; };
+		8868D3411D868B88001E1680 /* ResultScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8868D3401D868B88001E1680 /* ResultScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		8868D32B1D8681DE001E1680 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8868D32E1D8681DE001E1680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8868D3301D8681DE001E1680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8868D3361D8682C8001E1680 /* TitleScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TitleScene.sks; sourceTree = "<group>"; };
+		8868D3381D868849001E1680 /* TitleScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleScene.swift; sourceTree = "<group>"; };
+		8868D33A1D868995001E1680 /* PlayScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PlayScene.sks; sourceTree = "<group>"; };
+		8868D33C1D868A41001E1680 /* PlayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayScene.swift; sourceTree = "<group>"; };
+		8868D33E1D868AA9001E1680 /* ResultScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ResultScene.sks; sourceTree = "<group>"; };
+		8868D3401D868B88001E1680 /* ResultScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +68,13 @@
 			children = (
 				8868D3241D8681DE001E1680 /* AppDelegate.swift */,
 				8868D3261D8681DE001E1680 /* ViewController.swift */,
+				8868D3361D8682C8001E1680 /* TitleScene.sks */,
 				8868D3281D8681DE001E1680 /* Main.storyboard */,
+				8868D3381D868849001E1680 /* TitleScene.swift */,
+				8868D33A1D868995001E1680 /* PlayScene.sks */,
+				8868D33C1D868A41001E1680 /* PlayScene.swift */,
+				8868D33E1D868AA9001E1680 /* ResultScene.sks */,
+				8868D3401D868B88001E1680 /* ResultScene.swift */,
 				8868D32B1D8681DE001E1680 /* Assets.xcassets */,
 				8868D32D1D8681DE001E1680 /* LaunchScreen.storyboard */,
 				8868D3301D8681DE001E1680 /* Info.plist */,
@@ -122,9 +140,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8868D33B1D868995001E1680 /* PlayScene.sks in Resources */,
 				8868D32F1D8681DE001E1680 /* LaunchScreen.storyboard in Resources */,
+				8868D3371D8682C8001E1680 /* TitleScene.sks in Resources */,
 				8868D32C1D8681DE001E1680 /* Assets.xcassets in Resources */,
 				8868D32A1D8681DE001E1680 /* Main.storyboard in Resources */,
+				8868D33F1D868AA9001E1680 /* ResultScene.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +158,9 @@
 			files = (
 				8868D3271D8681DE001E1680 /* ViewController.swift in Sources */,
 				8868D3251D8681DE001E1680 /* AppDelegate.swift in Sources */,
+				8868D33D1D868A41001E1680 /* PlayScene.swift in Sources */,
+				8868D3411D868B88001E1680 /* ResultScene.swift in Sources */,
+				8868D3391D868849001E1680 /* TitleScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

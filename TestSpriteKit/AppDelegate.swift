@@ -1,9 +1,5 @@
 //
 //  AppDelegate.swift
-//  TestSpriteKit
-//
-//  Created by 齋藤緒 on 2016/09/11.
-//  Copyright © 2016年 TestOrganization. All rights reserved.
 //
 
 import UIKit
