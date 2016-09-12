@@ -15,8 +15,7 @@ class ViewController: UIViewController {
         let skView = self.view as! SKView
         
         //SKSファイルを指定してSKSceneインスタンスを生成する。
-        let scene = PlayScene(fileNamed: "PlayScene")
-        //let scene = TitleScene(fileNamed: "TitleScene")
+        let scene = TitleScene(fileNamed: "TitleScene")
         
         //現在シーンを設定する。
         skView.presentScene(scene)
