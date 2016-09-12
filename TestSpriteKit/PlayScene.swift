@@ -50,12 +50,14 @@ class PlayScene:SKScene, SKPhysicsContactDelegate {
     }
 
 
+
     //画面タッチ終了時の呼び出しメソッド
     override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
 
         //重力の影響を受けるようにする。
         birdNode.physicsBody?.affectedByGravity = true
    }
+
 
     
     //衝突検知時の呼び出しメソッド
