@@ -16,6 +16,20 @@ class TitleScene:SKScene {
     
     //画面タッチ時の呼び出しメソッド
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        print("タップしました。")
+        
+        //タッチしたノードを取得する。
+        let location = touches.first!.locationInNode(self)
+        if let node = nodeAtPoint(location) as? SKLabelNode {
+            
+            //タッチしたのがラベルノードの場合、スタートボタンなのかを確認する。
+            let startButton = self.childNodeWithName("start") as? SKLabelNode
+            if(node == startButton) {
+                
+                //スタートボタンを押した場合はプレイ画面に切り替える。
+                let result = PlayScene(fileNamed: "PlayScene")
+                self.view!.presentScene(result)
+            }
+            
+        }
     }
 }

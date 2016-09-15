@@ -10,6 +10,10 @@ class ResultScene:SKScene {
     
     //現在シーン設定時の呼び出しメソッド
     override func didMoveToView(view: SKView) {
-        print(score)
+        
+        //スコアラベルにスコアを表示する。
+        let scoreLabel = self.childNodeWithName("score") as? SKLabelNode
+        scoreLabel?.text = "\(score)点"
     }
+
 }

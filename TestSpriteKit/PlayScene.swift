@@ -62,6 +62,19 @@ class PlayScene:SKScene, SKPhysicsContactDelegate {
     
     //衝突検知時の呼び出しメソッド
     func didBeginContact(contact: SKPhysicsContact) {
-        print("衝突しました")
+        
+        //デリゲートを解除する。
+        self.physicsWorld.contactDelegate = nil
+        
+        //結果画面シーンを生成する。
+        let result = ResultScene(fileNamed: "ResultScene")
+        
+        //タップ時間を結果画面シーンのスコアに設定する。
+        let stopDate = NSDate()
+        result!.score = Int(stopDate.timeIntervalSinceDate(startDate!))
+        
+        //結果画面シーンに切り替える。
+        self.view!.presentScene(result)
     }
+
 }
