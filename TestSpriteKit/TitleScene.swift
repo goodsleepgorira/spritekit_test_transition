@@ -28,6 +28,7 @@ class TitleScene:SKScene {
                 //スタートボタンを押した場合はプレイ画面に切り替える。
                 let result = PlayScene(fileNamed: "PlayScene")
                 self.view!.presentScene(result)
+                //
             }
             
         }
